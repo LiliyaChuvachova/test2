@@ -606,20 +606,20 @@ img {
     top: 45px;
     left: 1063px;
 }
-.new>input {display: none;}
-.goods-left{
+.next1,.next,.next3,.next4 {
     background: url(image/prev.png);
 }
-.goods-right {
+.prev1,.prev,.prev3,.prev4 {
     background: url(image/next.png);
     left: 1123px;
 }
-.goods-left, .goods-right {
+.next1, .prev1 {
     position: absolute;
-    top: 250px;
+    top: 275px;
     width: 16px;
     height: 44px;
     cursor: pointer;
+    border: none;
 }
 .goods {
     width: 233px;
@@ -631,10 +631,15 @@ img {
     position: relative;
 }
 .goods:hover {border: 1px solid #ff5e1e;}
-.new-goods {
-    border: 1px solid #fff;
-    display: flex;
-    margin: 0 43px 0 43px;
+.gallery1 {
+    border: 1px solid black;
+    margin: 0 23px 0 43px;
+}
+.gallery1>ul{
+    margin-top: 20px;
+}
+.gallery1 li{
+margin: 15px;
 }
 .img-new {
     position: absolute;
@@ -652,7 +657,6 @@ img {
     top: 8px;
     left: 14px;
 }
-
 .img-goods-one {
     margin: 32px 36px 33px 43px;
 }
@@ -767,20 +771,20 @@ img {
     top: 15px;
     left: 1025px;
 }
-.recom>input {display: none;}
-.goods-left-recom{
-    background: url(image/prev.png);
+.gallery2 {
+    border: 1px solid black;
+    margin: 0 23px 0 43px;
 }
-.goods-right-recom {
-    background: url(image/next.png);
-    left: 1123px;
-}
-.goods-left-recom, .goods-right-recom {
+.gallery2>ul {margin-top: 20px;}
+.gallery2 li {margin: 15px;}
+.recom>.next,
+.recom>.prev {
     position: absolute;
     top: 250px;
     width: 16px;
     height: 44px;
     cursor: pointer;
+    border: none;
 }
 .img-recom {
     position: absolute;
@@ -827,7 +831,6 @@ img {
     top: 15px;
     left: 1070px;
 }
-.sale>input {display: none;}
 .img-sale {
     position: absolute;
     left: 10px;
@@ -843,6 +846,20 @@ img {
     position: absolute;
     top: 5px;
     left: 20px;
+}
+.gallery3 {
+    border: 1px solid black;
+    margin: 0 23px 0 43px;
+}
+.gallery3>ul {margin-top: 20px;}
+.gallery3 li {margin: 15px;}
+.next3, .prev3 {
+    position: absolute;
+    top: 250px;
+    width: 16px;
+    height: 44px;
+    cursor: pointer;
+    border: none;
 }
 /*акции*/
 .stock {
@@ -879,7 +896,6 @@ img {
     top: 15px;
     left: 1075px;
 }
-.stock>input {display: none;}
 .min-stock {
     width: 233px;
     min-height: 404px;
@@ -890,11 +906,6 @@ img {
     position: relative;
 }
 .min-stock:hover {border: 1px solid #ff5e1e;}
-.big-stock {
-    border: 1px solid #fff;
-    display: flex;
-    margin: 0 43px 0 43px;
-}
 .name-stock {
     color: #4673ab;
     font-family: "Roboto-Medium";
@@ -966,6 +977,20 @@ img {
     position: absolute;
     top: 12px;
     left: 115px;
+}
+.gallery4 {
+    border: 1px solid black;
+    margin: 0 23px 0 43px;
+}
+.gallery4>ul {margin-top: 20px;}
+.gallery4 li {margin: 15px;}
+.next4, .prev4 {
+    position: absolute;
+    top: 250px;
+    width: 16px;
+    height: 44px;
+    cursor: pointer;
+    border: none;
 }
 /*прямо сейчас*/
 .buy {
