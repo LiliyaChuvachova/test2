@@ -1,0 +1,1680 @@
+$color-orange: #ff5816
+$color-blue: #4673ab
+$color-black: #040d0d
+$color-white: #fff
+
+body
+	padding: 0px
+	margin: 0px
+	overflow-x: hidden
+
+	ul
+		list-style: none
+
+	a
+		text-decoration: none
+
+	img 
+		display: block
+
+.up-nav 
+	background-color: #000
+	width: 100%
+
+	.content 
+		width: 1140px
+		margin: 0px auto
+
+		.up-navigation 
+			padding-left: 0
+			padding-right: 0
+			margin: 0
+
+			li 
+				display: inline-block
+				border-right: 1px dotted #474646
+				margin: 0px
+				height: 13px
+				padding: 10px 26px 12px 20px
+	
+				&:first-of-type
+					padding: 10px 22px 12px 0
+
+				&:last-of-type
+					padding: 10px 0 12px 20px
+				a 
+					color: #bdc3c5
+					font-family: "Roboto"
+					font-size: 13px
+					font-weight: 300
+					float: left
+					margin: 0px
+
+					.triagle 
+						width: 9px
+						height: 8px
+						margin-left: 8px
+						padding-top: 6px
+	
+.top
+	width: 1140px
+	margin: 0px auto
+	border: 1px solid $color-white
+	padding-top: 5px
+
+	.region
+		height: 13px
+		color: #323232
+		font-family: "Roboto"
+		font-size: 13px
+		font-weight: 300
+		line-height: 20px
+		margin-right: 860px
+
+		a
+			color: $color-blue
+			border-bottom: 1px dotted $color-blue
+
+	.go
+		height: 14px
+		color: $color-blue
+		font-family: "Roboto"
+		font-size: 13px
+		font-weight: 300
+		line-height: 20px
+		text-decoration: underline
+
+	.in
+		margin-right: 15px
+
+.top-block
+	padding-top: 0px
+	width: 1140px
+	margin: 0px auto
+	border: 1px solid $color-white
+	display: -webkit-flex
+	display: flex
+	align-items: flex-start
+	justify-content: space-between
+
+	.logo 
+		width: 198px
+		height: 63px
+		padding-top: 12px
+
+	.call 
+		padding-top: 2px
+		position: relative
+		left: 26px
+
+		img 
+			width: 112px
+			height: 57px
+
+		.call-back 
+			position: absolute
+			top: 17px
+			left: 20px
+			color: $color-blue
+			font-family: "Roboto"
+			font-size: 12px
+			font-weight: 400
+			text-decoration: underline
+			text-align: center
+
+	.number 
+		position: relative
+		left: 10px
+		padding-top: 3px
+
+		.line-one
+			color: $color-black
+			font-family: "Roboto-Medium"
+			font-size: 22px
+			font-weight: 400
+			line-height: 20px
+			margin: 0 0 7px 0
+
+		.line-two,.line-three
+			color: $color-black
+			font-family: "Roboto"
+			font-size: 13px
+			font-weight: 300
+			line-height: 15px
+			margin: 0
+			letter-spacing: 0.25px
+
+			img 
+				width: 16px
+				height: 18px
+				display: inline-block
+				position: relative
+				top: 5px
+				left: 3px
+	
+			span 
+				margin-left: 10px
+	
+		a 
+			color: $color-blue
+			font-family: "Roboto"
+			font-weight: 300
+			text-decoration: underline
+			font-size: 13px
+
+	.search 
+		position: relative
+		width: 300px
+		left: 50px
+
+		.wrap-voip 
+			line-height: 18px
+			overflow-y: hidden
+			margin-top: 3px
+			margin-bottom: 12px
+
+			img 
+				float: left
+				padding-top: 7px
+				margin-right: 5px
+
+			.orange
+				color: $color-orange
+				font-family: "Roboto"
+				font-style: italic
+				letter-spacing: 0.25px
+				font-size: 18px
+				font-weight: 700
+	
+			.black 
+			font-family: "Roboto"
+			font-weight: 400
+			color: $color-black
+			font-size: 16px
+
+		.button
+			width: 58px
+			height: 26px
+			color: $color-white
+			border-radius: 3px
+			background-color: $color-orange
+			border: none
+			position: absolute
+			left: 167px
+			top: 53px
+
+		.input
+			width: 228px
+			height: 30px
+			border-radius: 4px
+			background-color: #eff0f4
+			border: none
+			color: #7f8486
+			font-family: Roboto
+			font-size: 13px
+			font-weight: 300
+			line-height: 20px
+			padding-left: 13px
+
+	.basket 
+		padding-top: 10px
+		position: relative
+
+		.Layer-basket
+			margin-bottom: 7px
+
+		.forma-basket 
+			position: absolute
+			top: 27px
+			left: 17px
+
+		.basket-text
+			position: absolute
+			top: 18px
+			left: 58px
+			width: 80px
+
+			.basket-line 
+				color: $color-black
+				font-family: "Roboto"
+				font-size: 13px
+				font-weight: 1000
+				line-height: 18px
+	
+			.sum
+				font-family: "Roboto"
+				font-weight: 300
+				font-size: 13px
+	
+		.favorites
+			display: inline-block
+			color: #363c3e
+			font-family: "Roboto"
+			font-size: 11px
+			font-weight: 300
+			line-height: 18px
+			margin-right: 7px
+			border-bottom: 1px dotted #363c3e
+
+			img 
+				float: left
+				margin-right: 5px
+
+			span 
+				color: $color-blue
+				font-family: "Roboto"
+				font-size: 13px
+				font-weight: 300
+				line-height: 16px
+				margin-left: 6px
+	
+.bottom-nav 
+	width: 1140px
+	box-shadow: inset 0 -3px 0 rgba(0, 1, 1, 0.23)
+	border-radius: 10px
+	background-color: $color-orange
+	margin: 0 auto
+
+	.nav-bottom 
+		display: -webkit-flex
+		display: flex
+		padding: 0 0 0 12px	
+
+		li
+			padding: 5px 7px 0 7px
+			border-right: 1px solid $color-white
+			min-height: 43px
+			line-height: 16px
+
+			&:last-child 
+				padding: 5px 17px 0 7px
+				position: relative
+
+			&:hover 
+				background-color: #fc7844
+
+			a 
+				color: $color-white
+				font-family: "Roboto"
+				font-size: 12px
+				font-weight: 300
+	
+				.img-bottom-nav 
+					position: absolute
+					left: 118px
+					top: 0px
+	
+				.img-bottom-right 
+					position: absolute
+					top: 20px
+					left: 125px
+	
+//новости
+.news-slides 
+	width: 1140px
+	margin: 0px auto
+	display: flex
+	display: -webkit-flex
+
+	.news-block 
+		width: 264px
+		border: 1px solid $color-white
+		display: inline-block
+
+		h3 
+			color: #2c3333
+			font-family: "Roboto-Regular"
+			font-size: 22px
+			font-weight: 600
+			line-height: 50px
+			letter-spacing: -0.4px
+			margin: 0
+
+		hr 
+			margin: 0 0 10px 0
+
+		.one
+			margin-top: 25px
+
+		.news
+			border-bottom: 1px dotted grey
+			position: relative
+			padding-right: 5px
+			min-height: 105px
+
+			img 
+				float: left
+				margin: 5px 15px 0 0
+	
+			.rounded 
+				position: absolute
+				top: 45px
+				left: 10px
+	
+			.text 
+				margin-left: 75px
+				margin-top: 15px
+				width: 176px
+	
+				a 
+					color: $color-blue
+					font-family: "Roboto-Medium"
+					font-size: 13px
+					font-weight: 500
+					line-height: 18px
+					margin-bottom: 0
+					margin-top: 0
+	
+					&:hover 
+						color: $color-orange
+	
+				p 
+					font-size: 13px
+					line-height: 18px
+					color: $color-black
+					font-family: "Roboto"
+					font-weight: 300
+					margin-top: 0
+	
+			.data 
+				color: $color-orange
+				font-family: "Roboto-Medium"
+				font-size: 20px
+				font-weight: 600
+				line-height: 20px
+				position: absolute
+				top: 55px
+				left: 15px
+	
+			.month 
+				color: $color-black
+				font-family: "Roboto"
+				font-size: 13px
+				font-weight: 300
+				line-height: 20px
+				position: absolute
+				top: 75px
+				left: 0
+	
+		.news-bottom 
+			padding-top: 13px
+
+			a 
+				min-height: 30px
+				color: $color-blue
+				font-family: "Roboto"
+				font-size: 13px
+				font-weight: 300
+				line-height: 20px
+				text-decoration: underline
+	
+//реклама
+.advertising 
+	width: 846px
+	min-height: 48px
+	margin-left: 25px
+	margin-top: 2px
+	background-color: #e3e5eb
+	border-radius: 10px
+	color: #131a1a
+	font-size: 16px
+
+	strong
+		font-family: "Roboto-Medium"
+		font-weight: 900
+		line-height: 48px
+		margin-left: 40px
+
+	i 
+		font-family: "Roboto"
+		font-weight: 600
+		line-height: 48px
+
+	span 
+		color: $color-blue
+		font-family: "Roboto-Medium"
+		font-weight: 800
+		line-height: 48px
+
+//слайдер
+.wrap
+	width: 846px
+	height: 368px
+	border-radius: 10px
+	margin: 33px 0 0 29px
+	position: relative
+
+	input 
+		display: none
+
+.slider 
+	background-color: $color-white
+	height: inherit
+	overflow: hidden
+	position: relative
+	width: inherit
+	border-radius: 10px
+
+.slides 
+	height: inherit
+	opacity: 0
+	position: absolute
+	width: inherit
+	z-index: 0
+
+.img1
+	background-image: url(image/Layer1.png)
+
+.img2
+	background-color: red
+
+.img3
+	background-color: pink
+
+.img4
+	background-color: blue
+
+.img5
+	background-color: grey
+
+.wrap .control 
+	position: absolute
+	left: 739px
+	top: 332px
+	z-index: 10
+
+.control label 
+	cursor: pointer
+	display: inline-block
+	height: 15px
+	width: 15px
+	position: relative
+	border-radius: 4px
+	background: $color-white
+
+.control label:after 
+	position: absolute
+	content: " "
+	display: block
+	height: 15px
+	width: 15px
+	border-radius: 4px
+
+#point1:checked ~ .control label:nth-of-type(1),
+#point2:checked ~ .control label:nth-of-type(2),
+#point3:checked ~ .control label:nth-of-type(3), 
+#point4:checked ~ .control label:nth-of-type(4), 
+#point5:checked ~ .control label:nth-of-type(5) 
+	background: $color-orange
+
+#point1:checked ~ .slider > .img1,
+#point2:checked ~ .slider > .img2,
+#point3:checked ~ .slider > .img3,
+#point4:checked ~ .slider > .img4,
+#point5:checked ~ .slider > .img5
+	opacity: 1
+	z-index: 1
+
+.left, .right 
+	position: absolute
+	width: 16px
+	height: 44px
+	cursor: pointer
+
+.right 
+	background: url(image/next.png)
+	top: 160px
+	left: 810px
+
+.left 
+	background: url(image/prev.png)
+	top: 160px
+	left: 20px
+
+//текст в слайдере
+.img1
+	p
+		color: $color-orange
+		font-family: "Roboto-Medium"
+		font-size: 31px
+		font-weight: 500
+		line-height: 38px
+		margin: 40px 0 0 63px
+
+	span
+		margin: 7px 0 0 63px
+
+	.vks
+		color: $color-white
+		font-family: "Roboto"
+		font-size: 29px
+		font-weight: 300
+		line-height: 34px
+
+	.gvc
+		font-style: italic
+		font-family: "Roboto"
+		font-weight: 300
+		line-height: 26px
+		font-size: 18px
+		color: $color-white
+		margin-top: 0px
+
+	ul
+		list-style: url(image/disc.png)
+		color: $color-white
+		font-family: "Roboto"
+		font-size: 13px
+		font-weight: 300
+		line-height: 26px
+		margin: 33px 0 0 37px
+		letter-spacing: 0.1px
+
+	.buttom 
+		width: 154px
+		height: 40px
+		box-shadow: inset 0 -3px 0 rgba(0, 1, 1, 0.23)
+		border-radius: 7px
+		background-color: $color-white
+		margin: 30px 0 0 65px
+		text-align: center
+
+		a
+			color: $color-blue
+			font-family: "Roboto-Medium"
+			font-size: 15px
+			font-weight: 900
+			line-height: 40px
+//новинки
+.new 
+	width: 1140px
+	margin: 0 auto
+	border: 1px solid $color-white
+	position: relative
+	padding: 0
+
+	.new-p 
+		color: $color-black
+		font-family: "Roboto-Medium"
+		font-size: 22px
+		font-weight: 500
+		line-height: 20px
+		text-transform: uppercase
+		margin-top: 50px
+
+	hr 
+		width: 920px
+		color: dimgray
+		position: absolute
+		top: 50px
+		left: 130px
+
+	.new-link-one
+		color: $color-blue
+		font-family: "Roboto"
+		font-size: 13px
+		font-weight: 300
+		line-height: 20px
+		text-decoration: underline
+		position: absolute
+		top: 45px
+		left: 1063px
+
+	.next1, .prev1 
+		position: absolute
+		top: 275px
+		width: 16px
+		height: 44px
+		cursor: pointer
+		border: none
+
+.next1,.next,.next3,.next4 
+	background: url(image/prev.png)
+
+.prev1,.prev,.prev3,.prev4 
+	background: url(image/next.png)
+	left: 1123px
+
+.gallery1 
+	border: 1px solid $color-white
+	margin: 0 23px 0 43px
+
+	ul
+		margin-top: 20px
+
+		.goods 
+			width: 233px
+			min-height: 388px
+			border-radius: 10px
+			border: 1px solid #dbdee6
+			background-color: $color-white
+			margin: 15px
+			position: relative
+
+			&:hover
+				border: 1px solid #ff5e1e
+
+			.img-new 
+				position: absolute
+				left: 10px
+				top: -3px
+
+			.green-label 
+				color: $color-white
+				font-family: "Roboto"
+				font-size: 12px
+				font-weight: 500
+				line-height: 22px
+				text-transform: uppercase
+				position: absolute
+				top: 8px
+				left: 14px
+	
+		@at-root	
+			.img-goods-one 
+				margin: 32px 36px 33px 43px
+	
+		@at-root
+			.img-goods-two 
+				margin: 36px 69px 25px 74px
+	
+		@at-root
+			.img-goods-three 
+				margin: 39px 28px 0 33px
+	
+		@at-root
+			.img-goods-four 
+				margin: 53px 21px 0 18px
+			
+.text-new 
+	border: 1px solid $color-white
+	margin: 20px 15px 0 20px
+	.ip 
+		color: $color-blue
+		font-family: "Roboto-Medium"
+		font-size: 16px
+		font-weight: 500
+		line-height: 22px
+		text-decoration: underline
+
+		&:hover 
+			color: $color-orange
+	p 
+		color: #1a2222
+		font-family: "Roboto"
+		font-size: 13px
+		font-weight: 300
+		line-height: 22px
+		margin-top: 20px
+		text-transform: none
+	
+		.cost 
+			font-family: "Roboto-Medium"
+			font-size: 20px
+			font-weight: 600
+
+		.no-cost 
+			color: $color-orange
+			font-family: "Roboto"
+			font-weight: 300
+			text-decoration: line-through
+						
+	button
+		width: 114px
+		height: 40px
+		box-shadow: inset 0 -3px 0 rgba(0, 1, 1, 0.23)
+		border-radius: 7px
+		background-color: #ff5e1e
+		color: $color-white
+		font-family: "Roboto-Medium"
+		font-size: 14px
+		font-weight: 500
+		line-height: 26px
+		text-transform: uppercase
+		margin-right: 8px
+
+		&:hover 
+			background-color: $color-blue
+			cursor: pointer
+
+		img 
+			position: relative
+			top: 3px
+			left: 8px
+			float: left
+			margin-right: 7px
+@at-root					
+	.details 
+		color: $color-blue
+		font-family: "Roboto"
+		font-size: 13px
+		font-weight: 300
+		line-height: 20px
+		text-decoration: underline	
+						
+//рекомендуем
+.recom
+	@extend .new
+
+	hr
+		width: 824px
+		color: dimgray
+		position: absolute
+		top: 20px
+		left: 190px
+
+@at-root
+	.recom>p 
+		color: $color-black
+		font-family: "Roboto-Medium"
+		font-size: 22px
+		font-weight: 500
+		line-height: 20px
+		text-transform: uppercase
+		margin-top: 20px
+
+@at-root
+	.recom>a 
+		color: $color-blue
+		font-family: "Roboto"
+		font-size: 13px
+		font-weight: 300
+		line-height: 20px
+		text-decoration: underline
+		position: absolute
+		top: 15px
+		left: 1025px
+
+.gallery2 
+	border: 1px solid $color-white
+	margin: 0 23px 0 43px
+
+	ul 
+		margin-top: 20px
+
+	.goods 
+		width: 233px
+		min-height: 388px
+		border-radius: 10px
+		border: 1px solid #dbdee6
+		background-color: $color-white
+		margin: 15px
+		position: relative
+
+		&:hover
+			border: 1px solid #ff5e1e
+
+		.img-recom 
+			position: absolute
+			left: 10px
+			top: -3px
+
+		.img-recom-ok 
+			position: absolute
+			left: 18px
+			top: 7px
+@at-root
+	.recom>.next,
+	.recom>.prev 
+		position: absolute
+		top: 250px
+		width: 16px
+		height: 44px
+		cursor: pointer
+		border: none
+
+//распродажа
+.sale
+	@extend .new
+
+	hr
+		width: 881px
+		color: dimgray
+		position: absolute
+		top: 20px
+		left: 180px
+
+@at-root
+	.sale>p 
+		color: $color-black
+		font-family: "Roboto-Medium"
+		font-size: 22px
+		font-weight: 500
+		line-height: 20px
+		text-transform: uppercase
+		margin-top: 20px
+
+@at-root
+	.sale>a 
+		color: $color-blue
+		font-family: "Roboto"
+		font-size: 13px
+		font-weight: 300
+		line-height: 20px
+		text-decoration: underline
+		position: absolute
+		top: 15px
+		left: 1070px
+
+.gallery3 
+	border: 1px solid $color-white
+	margin: 0 23px 0 43px
+
+	ul 
+	margin-top: 20px
+
+	.goods 
+		width: 233px
+		min-height: 388px
+		border-radius: 10px
+		border: 1px solid #dbdee6
+		background-color: $color-white
+		margin: 15px
+		position: relative
+
+		&:hover
+			border: 1px solid #ff5e1e
+
+		.img-sale 
+			position: absolute
+			left: 10px
+			top: -3px
+			
+		.text-sale
+			color: $color-white
+			font-family: "Roboto"
+			font-size: 24px
+			font-weight: 300
+			line-height: 26px
+			text-transform: uppercase
+			position: absolute
+			top: 5px
+			left: 20px
+
+@at-root
+	.next3, .prev3 
+		position: absolute
+		top: 250px
+		width: 16px
+		height: 44px
+		cursor: pointer
+		border: none
+
+//акции
+.stock
+	width: 1140px
+	margin: 0 auto
+	border: 1px solid $color-white
+	position: relative
+	padding: 0
+
+	hr
+		width: 969px
+		color: dimgray
+		position: absolute
+		top: 20px
+		left: 100px
+
+@at-root
+	.stock>p 
+		color: $color-black
+		font-family: "Roboto-Medium"
+		font-size: 22px
+		font-weight: 500
+		line-height: 20px
+		text-transform: uppercase
+		margin-top: 20px
+
+@at-root
+	.stock>a
+		color: $color-blue
+		font-family: "Roboto"
+		font-size: 13px
+		font-weight: 300
+		line-height: 20px
+		text-decoration: underline
+		position: absolute
+		top: 15px
+		left: 1075px
+
+.gallery4
+	border: 1px solid $color-white
+	margin: 0 23px 0 43px
+
+	ul 
+		margin-top: 20px
+
+		.min-stock
+			width: 233px
+			min-height: 404px
+			border-radius: 10px
+			border: 1px solid #dbdee6
+			background-color: $color-white
+			margin: 15px
+			position: relative
+
+			&:hover 
+				border: 1px solid #ff5e1e
+			
+			.name-stock 
+				color: $color-blue
+				font-family: "Roboto-Medium"
+				font-size: 16px
+				font-weight: 600
+				line-height: 22px
+				text-decoration: underline
+				margin: 40px 0 0 20px
+	
+			.min-stock-text 
+				color: $color-black
+				font-family: Roboto
+				font-size: 13px
+				font-weight: 300
+				line-height: 18px
+				margin: 13px 20px 15px 20px
+	
+			div 
+				background-color: #dbdee6
+				width: 233px
+				min-height: 65px
+				position: relative
+	
+				.text-data 
+					color: #1a2222
+					font-family: "Roboto"
+					font-size: 13px
+					font-weight: 300
+					line-height: 16px
+					width: 59px
+					position: absolute
+					top: 5px
+					left: 20px
+					
+				.timer
+					position: absolute
+					top: 15px
+					left: 88px
+	
+				span 
+					color: #7f8686
+					font-family: "Roboto"
+					font-size: 11px
+					font-weight: 300
+					line-height: 16px
+					position: relative
+					top: 40px
+					left: 90px
+					margin: 0 7px 0 5px
+	
+			.min-stock-link 
+				color: $color-blue
+				font-family: "Roboto"
+				font-size: 13px
+				font-weight: 300
+				line-height: 20px
+				text-decoration: underline
+				position: absolute
+				top: 367px
+				left: 95px
+				
+.text-data-text 
+	color: #337500
+	font-family: "Roboto"
+	font-size: 14px
+	font-weight: 600
+	line-height: 16px
+	text-transform: uppercase
+	position: absolute
+	top: 12px
+	left: 115px
+	
+.next4, .prev4 
+	position: absolute
+	top: 250px
+	width: 16px
+	height: 44px
+	cursor: pointer
+	border: none
+
+//прямо сейчас
+.buy 
+	@extend .new
+
+	p 
+		color: $color-black
+		font-family: "Roboto-Medium"
+		font-size: 22px
+		font-weight: 500
+		line-height: 20px
+		text-transform: uppercase
+		margin-top: 25px
+	
+	hr 
+		width: 787px
+		color: dimgray
+		position: absolute
+		top: 25px
+		left: 350px
+
+	a 
+		color: $color-blue
+		font-family: "Roboto-Medium"
+		font-size: 16px
+		font-weight: 800
+		line-height: 22px
+		text-decoration: underline
+
+	div,img
+		border: 1px solid $color-white
+
+	.big-buy 
+		border: 1px solid $color-white
+		display: flex
+		margin: 0 0 0 0
+
+		.clock>img 
+			margin: 27px 0 20px 37px
+
+		.gateway
+			padding-left: 55px
+			img 
+				margin: 30px 0 40px 15px
+
+		.tel 
+			padding-left: 30px
+			img 
+				margin: 45px 15px 40px 40px
+
+		.telefon 
+			padding-left: 40px
+			img 
+				margin: 20px 0 10px 10px
+	
+//бренды
+.brand 
+	@extend .new
+
+	p 
+		color: $color-black
+		font-family: "Roboto-Medium"
+		font-size: 22px
+		font-weight: 500
+		line-height: 20px
+		text-transform: uppercase
+		margin-top: 45px
+
+	hr 
+		width: 747px
+		color: dimgray
+		position: absolute
+		top: 45px
+		left: 300px
+
+	a 
+		color: $color-blue
+		font-family: "Roboto"
+		font-size: 13px
+		font-weight: 300
+		line-height: 20px
+		text-decoration: underline
+		position: absolute
+		top: 40px
+		left: 1065px
+
+	img 
+		margin: 50px 0 65px 0
+		width: 1140px
+
+//сильные стороны
+.strength 
+	width: 1140px
+	min-height: 274px
+	margin: 0 auto
+	border: 1px solid $color-white
+	position: relative
+	padding: 0
+	background-color:  #e3e5eb
+	border-radius: 10px
+	hr 
+		width: 777px
+		background-color: $color-white
+		border-color: $color-white
+		position: absolute
+		top: 33px
+		left: 335px
+
+.strength>p 
+	color: $color-black
+	font-family: "Roboto-Medium"
+	font-size: 22px
+	font-weight: 500
+	line-height: 20px
+	text-transform: uppercase
+	margin: 33px 0 0 25px
+
+.wrap-circle 
+	display: flex
+	margin-top: 2px
+	padding: 0 70px 0 70px
+
+	.block-circle 
+		margin-right: 95px
+
+		&:last-of-type 
+			margin-right: 0px
+
+		.circle 
+			width: 100px
+			height: 100px
+			border-radius: 50%
+			background-color: $color-white
+			margin: 28px 30px 20px 38px
+			position: relative
+
+			img 
+				position: absolute
+				top: 30px
+				left: 20px
+		p 
+			color: $color-black
+			font-family: "Roboto-Medium"
+			font-size: 12px
+			font-weight: 600
+			line-height: 18px
+			text-transform: uppercase
+			text-align: center
+
+//5 причин выбрать нашу компанию*/
+.reasons 
+	@extend .new
+
+	hr 
+		width: 710px
+		color: dimgray
+		position: absolute
+		top: 40px
+		left: 430px
+
+.reasons>p 
+	color: $color-black
+	font-family: "Roboto-Medium"
+	font-size: 22px
+	font-weight: 500
+	line-height: 20px
+	text-transform: uppercase
+	margin-top: 40px
+
+%reasons_old
+	width: 555px
+	min-height: 360px
+	border-radius: 10px
+	position: relative
+
+%client
+	font-size: 15px
+	color: $color-white
+	font-family: "Roboto-Medium"
+	font-weight: 500
+	line-height: 20px
+	text-transform: uppercase
+	position: absolute
+	top: 5px
+	left: 65px
+	
+%pic
+	position: absolute
+	top: 25px
+	left: 28px
+
+%stroke
+	font-family: "Roboto"
+	font-weight: 600
+	line-height: 20px
+	font-size: 15px
+	margin-bottom: 8px
+	padding-left: 6px
+
+%bold 
+	font-weight: 800
+	font-family: "Roboto-Medium"
+
+.wrap-left-right
+	display: flex
+	padding-top: 10px
+
+	.reasons-left
+		@extend %reasons_old
+		border: 2px solid #f6bdbf
+		margin-right: 25px
+
+		.pic-left
+			@extend %pic		
+		
+		p
+			@extend %client
+
+		.left-list 
+			list-style-image: url(image/red-list.png)
+
+			li
+				@extend %stroke
+	
+				strong
+					@extend %bold
+			
+	.reasons-right
+		@extend %reasons_old
+		border: 2px solid #9bd1a6
+
+		.pic-right
+			@extend %pic
+
+		p
+			@extend %client
+			top: 15px
+
+		.right-list 
+			list-style-image: url(image/green-list.png)
+
+			li
+				@extend %stroke
+	
+				strong
+					@extend %bold
+		
+//мы в цифрах
+.numeral 
+	@extend .new
+
+	hr 
+		width: 968px
+		color: dimgray
+		position: absolute
+		top: 40px
+		left: 170px
+
+.numeral>p 
+	color: $color-black
+	font-family: "Roboto-Medium"
+	font-size: 22px
+	font-weight: 500
+	line-height: 20px
+	text-transform: uppercase
+	margin-top: 40px
+
+.wrap-ring 
+	display: flex
+	border: 1px solid $color-white
+
+	.big-block-ring 
+		margin-right: 25px
+		border: 1px solid $color-white
+
+		&:last-of-type 
+			margin-right: 0
+
+		.numeral-line
+			color: $color-black
+			font-family: "Roboto-Medium"
+			font-size: 12px
+			font-weight: 600
+			line-height: 18px
+			text-transform: uppercase
+			text-align: center
+
+		.min-ring 
+			width: 134px
+			height: 132px
+			border: 1px solid #dbdee6
+			background-color: $color-white
+			border-radius: 50%
+			margin: 15px 15px 10px 15px
+
+			.num_1 
+				font-size: 80px
+				letter-spacing: -4.8px
+				margin: 20px 20px
+
+			.num_2 
+				font-size: 54px
+				letter-spacing: -3.24px
+				margin: 35px 20px
+
+			.num_3 
+				font-size: 44px
+				letter-spacing: -2.64px
+				margin: 25px 0 0 25px
+				padding: 0
+				line-height: 40px
+
+			.num_4 
+				font-size: 80px
+				letter-spacing: -4.8px
+				margin: 20px 0 0 30px
+
+			.num_5 
+				font-size: 80px
+				letter-spacing: -4.8px
+				margin: 20px 0 0 25px
+
+			.num_6 
+				font-size: 80px
+				letter-spacing: -4.8px
+				margin: 20px 0 0 50px
+	
+			.x 
+				font-size: 19px
+				margin: 0 0 0 65px
+				line-height: 0px
+
+			.hundred 
+				font-size: 36px
+				letter-spacing: -2.16px
+				margin: 0 0 0 45px
+				line-height: 26px
+	
+			.x,.hundred,.num_5,.num_3,.num_1 
+				color: $color-orange
+
+			.num_2,.num_4,.num_6
+				color: #394a5c
+
+			.x,.hundred,.num_5,.num_3,.num_1,.num_2,.num_4,.num_6 
+				font-weight: 700
+				text-transform: uppercase
+				font-family: "Roboto-Medium"
+	
+//как с нами работать
+.work
+	@extend .new
+
+	hr 
+		width: 874px
+		color: dimgray
+		position: absolute
+		top: 35px
+		left: 265px
+
+.work>p 
+	color: $color-black
+	font-family: "Roboto-Medium"
+	font-size: 22px
+	font-weight: 500
+	line-height: 20px
+	text-transform: uppercase
+	margin-top: 33px
+
+.wrap-link-work
+	display: flex
+	margin-top: 40px
+
+	.aktive
+		border: 1px solid $color-white
+		padding: 10px 30px 10px 0
+		border-radius: 7px
+		margin-right: 2px
+
+		a 
+			color: $color-black
+			font-family: "Roboto-Medium"
+			font-size: 15px
+			font-weight: 700
+			line-height: 18px
+			text-transform: uppercase
+
+	.calm 
+		border-radius: 7px
+		background-color: #dbdee6
+		padding: 10px 25px
+		margin-right: 2px
+
+		a 
+			color: $color-orange
+			font-family: "Roboto-Medium"
+			font-size: 15px
+			font-weight: 700
+			line-height: 18px
+			text-transform: uppercase
+			border-bottom: 1px dotted red
+
+.wrap-picture 
+	display: flex
+	align-items: flex-start
+	border: 1px solid $color-white
+	margin-top: 57px
+
+	.item 
+		border: 1px solid $color-white
+		width: 270px
+		display: flex
+		align-items: flex-start
+		margin-right: 20px
+		position: relative
+
+		&:last-of-type 
+			margin-right: 0
+
+		.icon 
+			margin-right: 10px
+
+		p 
+			color: $color-black
+			font-family: "Roboto"
+			font-size: 15px
+			font-weight: 300
+			line-height: 18px
+			margin: 0
+
+			span 
+				font-family: "Roboto-Bold"
+				font-weight: 700
+
+		.arrow_one,.arrow_to,.arrow_three 
+			position: relative
+			top: 12px
+
+		.arrow_one
+			left: 5px
+
+		.arrow_to 
+			left: 30px
+
+		.arrow_three
+			left: 50px
+
+.work-text 
+	border-top: 1px solid silver
+	margin-top: 40px
+	margin-bottom: 70px
+	display: flex
+	justify-content: space-between
+	padding-top: 35px
+	color: $color-black
+	font-family: "Roboto"
+	font-size: 15px
+	font-weight: 600
+	line-height: 22px
+
+	.work-text-left,.work-text-right 
+		width: 550px
+
+		a 
+			color: $color-orange
+			text-decoration: underline
+
+//footer
+footer 
+	min-height: 350px
+	width: 100%
+	background-color: #5c7489
+
+.footer_block 
+	width: 1140px
+	margin: 0 auto
+	border: 1px solid #5c7489
+	padding: 33px 0 23px 0
+	display: flex
+
+	.min_footer_block 
+		border: 1px solid #5c7489
+		margin-right: 60px
+		padding-top: 0
+
+		&:last-of-type
+			margin-right: 0px
+			padding: 5px 0 0 55px
+			display: flex
+			align-items: flex-start
+
+		.footer_logo 
+			margin: 7px 0 27px 0
+
+		p 
+			color: #c8d4dc
+			font-family: "Roboto"
+			font-size: 13px
+			font-weight: 300
+			line-height: 18px
+
+		.text_min_footer_block 
+			margin-top: 5px
+
+		.driving_directions 
+			color: #c8d4dc
+			text-decoration: underline
+
+		ul 
+			margin: 0
+			padding: 0
+
+			a 
+				color: #c8d4dc
+				font-family: "Roboto"
+				font-size: 13px
+				font-weight: 300
+				line-height: 26px
+				text-decoration: underline
+
+		.call_footer 
+			position: relative
+			margin-right: 15px
+
+			.call-back 
+				position: absolute
+				top: 15px
+				left: 20px
+				color: $color-blue
+				font-family: "Roboto"
+				font-size: 12px
+				font-weight: 400
+				text-decoration: underline
+				text-align: center
+	
+	.number_footer
+		a 
+			color: $color-white
+			font-family: "Roboto"
+			font-weight: 300
+			text-decoration: underline
+			font-size: 13px
+
+		.icon-footer
+			margin-top: 42px
+
+		.line_one_footer 
+			color: $color-white
+			font-family: "Roboto-Regular"
+			font-size: 22px
+			font-weight: 600
+			line-height: 20px
+			margin: 0 0 7px 0  
+
+		.line_two_footer, .line_three_footer
+			color: $color-white
+			font-family: "Roboto"
+			font-size: 13px
+			font-weight: 300
+			line-height: 15px
+			margin: 0
+			letter-spacing: 0.25px
+
+			img 
+				width: 16px
+				height: 18px
+				display: inline-block
+				position: relative
+				top: 5px
+				left: 3px
+
+			span 
+				margin-left: 3px
+	
+.bottom_footer_block 
+	min-height: 74px
+	width: 100%
+	background-color: #2c3f53
+	div 
+		margin: 0 auto
+		width: 1140px
+		position: relative
+		padding-top: 20px
+
+		p 
+			color: #c8d4dc
+			font-family: "Roboto"
+			font-size: 11px
+			font-weight: 300
+			line-height: 18px
+			margin: 0
+
+		img 
+			position: absolute
+			top: 20px
+			left: 1050px
+	
+		
+
+
+
+
+
+	
+
+			
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+@font-face 
+	font-family: 'Roboto'
+	src: url(font/Roboto-Light.ttf)
+	src: url(font/Roboto-Light.eot)
+	src: url(font/Roboto-Light.otf)
+	src: url(font/Roboto-Light.svg)
+	src: url(font/Roboto-Light.woff)
+
+@font-face 
+	font-family: 'Roboto-Medium'
+	src: url(font/Roboto-Medium.ttf)
+
+@font-face 
+	font-family: 'Roboto-Thin'
+	src: url(font/Roboto-Thin.ttf)
+
+@font-face 
+	font-family: 'Roboto-Regular'
+	src: url(font/Roboto-Regular.ttf)
+
+@font-face 
+	font-family: 'Roboto-Bold'
+	src: url(font/Roboto-Bold.ttf)
+
+
+
