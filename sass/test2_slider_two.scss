@@ -1,0 +1,289 @@
+$color-orange: #ff5816;
+$color-blue: #4673ab;
+$color-black: #040d0d;
+$color-white: #fff;
+
+/*рекомендуем*/
+.recom {
+	@extend .new;
+		
+	hr {
+		width: 824px;
+		color: dimgray;
+		position: absolute;
+		top: 20px;
+		left: 190px;
+	}
+
+	.recom-p {
+		color: $color-black;
+		font-family: "Roboto-Medium";
+		font-size: 22px;
+		font-weight: 500;
+		line-height: 20px;
+		text-transform: uppercase;
+		margin-top: 20px;
+	}
+
+	.recom-link-one {
+		color: $color-blue;
+		font-family: "Roboto";
+		font-size: 13px;
+		font-weight: 300;
+		line-height: 20px;
+		text-decoration: underline;
+		position: absolute;
+		top: 15px;
+		left: 1025px;
+	}
+
+	.gallery2 {
+		border: 1px solid $color-white;
+		margin: 0 23px 0 43px;
+
+		ul {
+			margin-top: 20px;
+		
+			.img-recom {
+				position: absolute;
+				left: 10px;
+				top: -3px;
+			}
+
+			.img-recom-ok {
+				position: absolute;
+				left: 18px;
+				top: 7px;
+			}
+		}
+	}
+}
+@at-root
+	.recom > .next,.recom > .prev {
+		position: absolute;
+		top: 250px;
+		width: 16px;
+		height: 44px;
+		cursor: pointer;
+		border: none;
+	}
+
+/*распродажа*/
+.sale {
+	@extend .new;
+
+	hr {
+		width: 881px;
+		color: dimgray;
+		position: absolute;
+		top: 20px;
+		left: 180px;
+	}
+	
+	.sale-p {
+		color: $color-black;
+		font-family: "Roboto-Medium";
+		font-size: 22px;
+		font-weight: 500;
+		line-height: 20px;
+		text-transform: uppercase;
+		margin-top: 20px;
+	}
+
+	.sale-link-one {
+		color: $color-blue;
+		font-family: "Roboto";
+		font-size: 13px;
+		font-weight: 300;
+		line-height: 20px;
+		text-decoration: underline;
+		position: absolute;
+		top: 15px;
+		left: 1070px;
+	}
+	
+	.gallery3 {
+		border: 1px solid $color-white;
+		margin: 0 23px 0 43px;
+
+		ul {
+			margin-top: 20px;
+
+			.img-sale {
+				position: absolute;
+				left: 10px;
+				top: -3px;
+			}
+
+			.text-sale {
+				color: $color-white;
+				font-family: "Roboto";
+				font-size: 24px;
+				font-weight: 300;
+				line-height: 26px;
+				text-transform: uppercase;
+				position: absolute;
+				top: 5px;
+				left: 20px;
+			}
+		}
+	}		
+
+@at-root
+	.next3,.prev3 {
+		position: absolute;
+		top: 250px;
+		width: 16px;
+		height: 44px;
+		cursor: pointer;
+		border: none;
+	}
+}
+/*акции*/
+.stock {
+	@extend .new;
+
+	hr {
+		width: 969px;
+		color: dimgray;
+		position: absolute;
+		top: 20px;
+		left: 100px;
+	}
+
+	.stock-p {
+		color: $color-black;
+		font-family: "Roboto-Medium";
+		font-size: 22px;
+		font-weight: 500;
+		line-height: 20px;
+		text-transform: uppercase;
+		margin-top: 20px;
+	}
+
+	.stock-link-one {
+		color: $color-blue;
+		font-family: "Roboto";
+		font-size: 13px;
+		font-weight: 300;
+		line-height: 20px;
+		text-decoration: underline;
+		position: absolute;
+		top: 15px;
+		left: 1075px;
+	}
+	
+	.gallery4 {
+		border: 1px solid $color-white;
+		margin: 0 23px 0 43px;
+
+		ul {
+			margin-top: 20px;
+		}
+
+			.min-stock {
+				width: 233px;
+				min-height: 404px;
+				border-radius: 10px;
+				border: 1px solid #dbdee6;
+				background-color: $color-white;
+				margin: 15px;
+				position: relative;
+		
+				.min-stock:hover {
+					border: 1px solid #ff5e1e;
+				}
+		
+				.name-stock {
+					color: $color-blue;
+					font-family: "Roboto-Medium";
+					font-size: 16px;
+					font-weight: 600;
+					line-height: 22px;
+					text-decoration: underline;
+					margin: 40px 0 0 20px;
+				}
+		
+				.min-stock-text {
+					color: $color-black;
+					font-family: Roboto;
+					font-size: 13px;
+					font-weight: 300;
+					line-height: 18px;
+					margin: 13px 20px 15px 20px;
+				}
+				
+				div {
+					background-color: #dbdee6;
+					width: 233px;
+					min-height: 65px;
+					position: relative;
+		
+					.text-data {
+						color: #1a2222;
+						font-family: "Roboto";
+						font-size: 13px;
+						font-weight: 300;
+						line-height: 16px;
+						width: 59px;
+						position: absolute;
+						top: 5px;
+						left: 20px;
+					}
+
+					.timer {
+						position: absolute;
+						top: 15px;
+						left: 88px;
+					}
+		
+					span {
+						color: #7f8686;
+						font-family: "Roboto";
+						font-size: 11px;
+						font-weight: 300;
+						line-height: 16px;
+						position: relative;
+						top: 40px;
+						left: 90px;
+						margin: 0 7px 0 5px;
+					}
+				}
+
+			.min-stock-link {
+				color: $color-blue;
+				font-family: "Roboto";
+				font-size: 13px;
+				font-weight: 300;
+				line-height: 20px;
+				text-decoration: underline;
+				position: absolute;
+				top: 367px;
+				left: 95px;
+			}
+		
+		@at-root
+			.text-data-text {
+				color: #337500;
+				font-family: "Roboto";
+				font-size: 14px;
+				font-weight: 600;
+				line-height: 16px;
+				text-transform: uppercase;
+				position: absolute;
+				top: 12px;
+				left: 115px;
+			}
+
+		@at-root
+			.next4,.prev4 {
+				position: absolute;
+				top: 250px;
+				width: 16px;
+				height: 44px;
+				cursor: pointer;
+				border: none;
+			}
+		}
+	}
+}

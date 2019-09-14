@@ -1,0 +1,406 @@
+$color-orange: #ff5816;
+$color-blue: #4673ab;
+$color-black: #040d0d;
+$color-white: #fff;
+
+/*прямо сейчас*/
+.buy {
+	@extend .new;
+
+	p {
+		color: $color-black;
+		font-family: "Roboto-Medium";
+		font-size: 22px;
+		font-weight: 500;
+		line-height: 20px;
+		text-transform: uppercase;
+		margin-top: 25px;
+	}
+
+	hr {
+		width: 787px;
+		color: dimgray;
+		position: absolute;
+		top: 25px;
+		left: 350px;
+	}
+	
+	a {
+		color: $color-blue;
+		font-family: "Roboto-Medium";
+		font-size: 16px;
+		font-weight: 800;
+		line-height: 22px;
+		text-decoration: underline;
+	}
+	
+	img,div {
+		border: 1px solid $color-white;
+	}
+
+	.big-buy {
+		border: 1px solid $color-white;
+		display: flex;
+		margin: 0 0 0 0;
+
+		.clock > img {
+			margin: 27px 0 20px 37px;
+		}
+
+		.gateway {
+			padding-left: 55px;
+
+			img {
+				margin: 30px 0 40px 15px;
+			}
+		}
+
+		.tel {
+			padding-left: 30px;
+
+			img {
+				margin: 45px 15px 40px 40px;
+			}
+		}
+
+		.telefon {
+			padding-left: 40px;
+
+			img {
+				margin: 20px 0 10px 10px;
+			}
+		}
+	}
+}
+/*бренды*/
+.brand {
+	@extend .new;
+
+	p {
+		color: $color-black;
+		font-family: "Roboto-Medium";
+		font-size: 22px;
+		font-weight: 500;
+		line-height: 20px;
+		text-transform: uppercase;
+		margin-top: 45px;
+	}
+
+	hr {
+		width: 747px;
+		color: dimgray;
+		position: absolute;
+		top: 45px;
+		left: 300px;
+	}
+
+	a {
+		color: $color-blue;
+		font-family: "Roboto";
+		font-size: 13px;
+		font-weight: 300;
+		line-height: 20px;
+		text-decoration: underline;
+		position: absolute;
+		top: 40px;
+		left: 1065px;
+	}
+
+	img {
+		margin: 50px 0 65px 0;
+		width: 1140px;
+	}
+}
+/*сильные стороны*/
+.strength {
+	width: 1140px;
+	min-height: 274px;
+	margin: 0 auto;
+	border: 1px solid $color-white;
+	position: relative;
+	padding: 0;
+	background-color: #e3e5eb;
+	border-radius: 10px;
+
+	hr {
+		width: 777px;
+		background-color: $color-white;
+		border-color: $color-white;
+		position: absolute;
+		top: 33px;
+		left: 335px;
+	}
+
+	.strength-p {
+		color: $color-black;
+		font-family: "Roboto-Medium";
+		font-size: 22px;
+		font-weight: 500;
+		line-height: 20px;
+		text-transform: uppercase;
+		margin: 33px 0 0 25px;
+	}
+
+	.wrap-circle {
+		display: flex;
+		margin-top: 2px;
+		padding: 0 70px 0 70px;
+
+		.block-circle {
+			margin-right: 95px;
+			
+			&:last-of-type {
+				margin-right: 0px;
+			}
+			
+			.circle {
+				width: 100px;
+				height: 100px;
+				border-radius: 50%;
+				background-color: $color-white;
+				margin: 28px 30px 20px 38px;
+				position: relative;
+
+				img {
+					position: absolute;
+					top: 30px;
+					left: 20px;
+				}
+			}
+			
+			p {
+				color: $color-black;
+				font-family: "Roboto-Medium";
+				font-size: 12px;
+				font-weight: 600;
+				line-height: 18px;
+				text-transform: uppercase;
+				text-align: center;
+			}
+		}
+	}
+}
+/*5 причин выбрать нашу компанию*/
+.reasons {
+	@extend .new;
+
+	hr {
+		width: 710px;
+		color: dimgray;
+		position: absolute;
+		top: 40px;
+		left: 430px;
+	}
+
+	.reasons-p {
+		color: $color-black;
+		font-family: "Roboto-Medium";
+		font-size: 22px;
+		font-weight: 500;
+		line-height: 20px;
+		text-transform: uppercase;
+		margin-top: 40px;
+	}
+	
+	.wrap-left-right {
+		display: flex;
+		padding-top: 10px;
+
+	@at-root	
+		.reasons-left,.reasons-right {
+			width: 555px;
+			min-height: 360px;
+			border-radius: 10px;
+			position: relative;
+		}
+		
+	@at-root	
+		.reasons-left {
+			border: 2px solid #f6bdbf;
+			margin-right: 25px;
+		}
+		
+	@at-root
+		.reasons-right {
+			border: 2px solid #9bd1a6;
+		}
+	@at-root
+		.pic-left, .pic-right {
+			position: absolute;
+			top: 25px;
+			left: 28px;
+		}
+		
+	@at-root
+		.reasons-left > p, .reasons-right > p {
+			font-size: 15px;
+			color: $color-white;
+			font-family: "Roboto-Medium";
+			font-weight: 500;
+			line-height: 20px;
+			text-transform: uppercase;
+			position: absolute;
+			top: 5px;
+			left: 65px;
+		}
+		
+	@at-root
+		.reasons-right > p {
+			top: 15px;
+		}
+	@at-root
+		.left-list {
+			list-style-image: url(image/red-list.png);
+		}
+	@at-root
+		.left-list > li, .right-list > li {
+			font-family: "Roboto";
+			font-weight: 600;
+			line-height: 20px;
+			font-size: 15px;
+			margin-bottom: 8px;
+			padding-left: 6px;
+		}
+	@at-root
+		.left-list > li > strong,.right-list > li > strong {
+			font-weight: 800;
+			font-family: "Roboto-Medium";
+		}
+	@at-root
+		.right-list {
+			list-style-image: url(image/green-list.png);
+		}
+	}
+}
+/*мы в цифрах*/
+.numeral {
+	@extend .new;
+
+	hr {
+		width: 968px;
+		color: dimgray;
+		position: absolute;
+		top: 40px;
+		left: 170px;
+	}
+
+	.numeral-p {
+		color: $color-black;
+		font-family: "Roboto-Medium";
+		font-size: 22px;
+		font-weight: 500;
+		line-height: 20px;
+		text-transform: uppercase;
+		margin-top: 40px;
+	}
+
+	.wrap-ring {
+		display: flex;
+		border: 1px solid $color-white;
+		
+		.big-block-ring {
+			margin-right: 25px;
+			border: 1px solid $color-white;
+
+			.big-block-ring:last-of-type {
+				margin-right: 0;
+			}
+			
+			.big-block-ring > p {
+				color: $color-black;
+				font-family: "Roboto-Medium";
+				font-size: 12px;
+				font-weight: 600;
+				line-height: 18px;
+				text-transform: uppercase;
+				text-align: center;
+			}
+			
+			.min-ring {
+				width: 134px;
+				height: 132px;
+				border: 1px solid #dbdee6;
+				background-color: $color-white;
+				border-radius: 50%;
+				margin: 15px 15px 10px 15px;
+			
+				.num_1 {
+					font-size: 80px;
+					letter-spacing: -4.8px;
+					margin: 20px 20px;
+				}
+
+				.num_2 {
+					font-size: 54px;
+					letter-spacing: -3.24px;
+					margin: 35px 20px;
+				}
+
+				.num_3 {
+					font-size: 44px;
+					letter-spacing: -2.64px;
+					margin: 25px 0 0 25px;
+					padding: 0;
+					line-height: 40px;
+				}	
+				
+				.num_4 {
+					font-size: 80px;
+					letter-spacing: -4.8px;
+					margin: 20px 0 0 30px;
+				}
+
+				.num_5 {
+					font-size: 80px;
+					letter-spacing: -4.8px;
+					margin: 20px 0 0 25px;
+				}
+
+				.num_6 {
+					font-size: 80px;
+					letter-spacing: -4.8px;
+					margin: 20px 0 0 50px;
+				}
+				
+				.x {
+					font-size: 19px;
+					margin: 0 0 0 65px;
+					line-height: 0px;
+				}
+
+				.hundred {
+					font-size: 36px;
+					letter-spacing: -2.16px;
+					margin: 0 0 0 45px;
+					line-height: 26px;
+				}
+				
+				.x,.hundred,.num_5,.num_3,.num_1 {
+					color: $color-orange;
+				}
+
+				.num_2,.num_4,.num_6 {
+					color: #394a5c;
+				}
+
+				.x,.hundred,.num_5,.num_3,.num_1,.num_2,.num_4,.num_6 {
+					font-weight: 700;
+					text-transform: uppercase;
+					font-family: "Roboto-Medium";
+				}
+			}
+			
+			.numeral-line{
+				color: $color-black;
+				font-family: "Roboto-Medium";
+				font-size: 12px;
+				font-weight: 600;
+				line-height: 18px;
+				text-transform: uppercase;
+				text-align: center;
+			}
+		}
+	}
+}
+
+
